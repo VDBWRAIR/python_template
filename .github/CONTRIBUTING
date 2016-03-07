@@ -1,0 +1,17 @@
+# General contributing guidlines
+
+## Project release process
+
+#. Create milestone for logical portions
+#. Assign/create issues that are related to milestones
+#. Create branch for each milestone
+#. Branch for each issue worked on that branches from milestone branch
+#. Pull request for each issue goes back to milestone branch
+#. When all issues complete pull request for milestone branch to master
+#. Ideally one milestone completed should equal one release, but there will be times when multiple milestones make up a release
+#. Release process(all in master?)
+   #. Version bump
+   #. Changelog update
+   #. Verify docs are up-to-date
+   #. Create release tag
+   #. Branch code and name after release
